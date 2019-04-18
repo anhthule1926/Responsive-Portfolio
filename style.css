@@ -11,7 +11,11 @@ body {
   }
   
   /* general */
-  
+  #header {
+    position: fixed;
+    width: 640px;
+  }
+
   .container {
     width: 100%;
     max-width: 960px;
@@ -216,3 +220,8 @@ body {
     border: 0 none;
   }
   
+@media screen and (min-width: 640px) { }
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 980px) {}
