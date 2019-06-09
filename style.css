@@ -126,15 +126,22 @@ h3, h2 {
 
 .main-section {
   float: left;
-  width: 100%;
-  max-width: 960px;
+  max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
 }
 
 /* portfolio page */
+.sidebar {
+  float: right;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
 
 .work {
   position: relative;
@@ -194,6 +201,13 @@ textarea {
   width: 100%;
 }
 
+.social{
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
 input[type=text],
 input[type=email],
 textarea {
@@ -214,7 +228,6 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-
 
   
 @media screen and (min-width: 640px) {}
