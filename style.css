@@ -3,13 +3,12 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("assets/background.jpg");
+  background: url("assets/images/background.jpg");
 }
 
 * {
   box-sizing: border-box;
 }
-
 /* general */
 
 .container {
@@ -133,6 +132,7 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #ddd;
 }
+
 
 /* portfolio page */
 .sidebar {
